@@ -15,8 +15,8 @@ dependencies:
   - climate4r=1.5.1
   - r-irkernel
   - jupyter
-  # extra
-  - nbgitpuller
+  - nbgitpuller # required for decouple binder and repo
+  # extra for R
   - r-devtools
   - r-gridextra
   - r-xtable
@@ -24,6 +24,9 @@ dependencies:
   - r-httr
   - r-lattice
   - r-latticeExtra
+  # extra for python
+  - xarray
+  - regionmask
 ```
 
-To build the docker image: `jupyter-repo2docker --ref devel REPO`.
+To build the docker image: `jupyter-repo2docker --ref BRANCH --user-name jovyan REPO`.
