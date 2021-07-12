@@ -16,6 +16,7 @@ dependencies:
   - r-irkernel
   - jupyter
   # extra
+  - nbgitpuller
   - r-devtools
   - r-gridextra
   - r-xtable
