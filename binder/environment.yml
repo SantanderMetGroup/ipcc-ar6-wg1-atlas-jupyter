@@ -33,6 +33,7 @@ dependencies:
   - jupyterhub
   - notebook
   - jupyterlab
+  - jupyter_nbextensions_configurator
   - nbgitpuller # required for decouple binder and repo
   # Dependencies for notebooks
   - r-devtools
