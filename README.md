@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SantanderMetGroup/binder-atlas/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cofinoa/ipcc-ar6-wg1-atlas-jupyter/main)
 
 This repo holds the binder for https://github.com/IPCC-WG1/Atlas.
 
